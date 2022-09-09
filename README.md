@@ -6,7 +6,17 @@ This is only a small PoC to see how you can install and configure a react applic
 The damages in terms of security or performance of a wrong configuration can have a huge impact in your application.
 
 If you don't need to configure Webpack, we recomend the use of **create-react-app** (aka CRA).
-If want to configure webpack and use CRA too, we recoment the use of **craco** (Create React App Configuration) => https://github.com/dilanx/craco
+If want to configure webpack and use CRA too, we recoment the use of **craco** (Create React App Configuration): https://github.com/dilanx/craco
+
+## pnpm
+
+This project uses pnpm to manage de dependencies.
+
+**pnpm i <package_name>**: To install new packages
+
+Read mor about: https://pnpm.io
+
+It can work with npm too. In this case you have to delete first the file pnpm-lock.yaml.
 
 ## Init project and install dependencies
 
