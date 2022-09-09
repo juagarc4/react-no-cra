@@ -11,31 +11,35 @@ If want to configure webpack and use CRA too, we recoment the use of **craco** (
 ## Init project and install dependencies
 
 1. Create project structure
-   project_name
-   |-- src
-   |-- public
-2. Go into "project_struture" and execute:
 
-- **npm init -y** to create packajes.json
-- **npm i --save-dev webpack webpack-cli webpack-dev-server** to install webpack
-- **npm i --save-dev babel-loader @babel/preset-env @babel/core @babel/plugin-transform-runtime @babel/preset-react @babel/eslint-parser @babel/runtime @babel/cli** to install babel
-- **npm i --save-dev eslint eslint-config-airbnb-base eslint-plugin-jest eslint-config-prettier path** to install linters and path
-- **npm i react react-dom** to install react
+```
+  project_name (root directory)
+    |-- src
+    |-- public
+```
 
-6. Create .babelrc
+2. Go into "root directory" and execute:
+
+- **pnpm init -y** to create packajes.json
+- **pnpm i --save-dev webpack webpack-cli webpack-dev-server** to install webpack
+- **pnpm i --save-dev babel-loader @babel/preset-env @babel/core @babel/plugin-transform-runtime @babel/preset-react @babel/eslint-parser @babel/runtime @babel/cli** to install babel
+- **pnpm i --save-dev eslint eslint-config-airbnb-base eslint-plugin-jest eslint-config-prettier path** to install linters and path
+- **pnpm i react react-dom** to install react
+
+3. Create **.babelrc** in root directory
 
 ## Configure Basic React App
 
-1. Create files src/index.js and src/App.js
+1. Create files **src/index.js** and **src/App.js**
 
 ## Configure webpack
 
-1. Create file webpack.config.js
+1. Create file **webpack.config.js** in root directory
 
 ## Build the project
 
-1. Run pnpm build
+1. Run **pnpm build** in root directory
 
 ## Start the app
 
-1. Run pnpm start
+1. Run **pnpm start** in root directory
